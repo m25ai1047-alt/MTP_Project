@@ -1,0 +1,19 @@
+INFO: User authentication successful for user: alice
+INFO: Processing request /api/v1/products
+INFO: Database connection established
+ERROR: NullPointerException at com.example.service.UserService.getUserProfile(UserService.java:142)
+INFO: Request completed in 52ms
+INFO: Cache hit for key: session_789
+WARN: Slow query detected: 920ms
+INFO: Processing payment transaction
+FATAL: Database connection pool exhausted - timeout after 30000ms at com.example.db.ConnectionManager.getConnection(ConnectionManager.java:87)
+INFO: Email sent to customer@example.com
+INFO: File uploaded successfully
+ERROR: java.sql.SQLException: Connection timeout at com.example.repository.OrderRepository.findById(OrderRepository.java:56)
+INFO: User logged in: bob.smith
+INFO: API call to external service completed
+WARN: Memory usage at 85%
+INFO: Request processed successfully
+ERROR: Failed to parse JSON response from external API: Unexpected token at line 1 column 45
+INFO: Background job started
+INFO: Metrics collected and stored

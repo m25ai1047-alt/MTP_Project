@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+
+# Model files
+*.joblib
+*.pkl
+*.h5
+
+# ChromaDB
+chroma_db_storage/
+*.chroma
+
+# Logs
+*.log
+logs/
+
+# Results
+rca_result.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (for UI)
+Chatbot_UI/rca-chatbot/node_modules/
+Chatbot_UI/rca-chatbot/build/
+Chatbot_UI/rca-chatbot/.env.local
